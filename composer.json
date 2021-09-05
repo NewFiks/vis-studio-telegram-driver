@@ -1,0 +1,21 @@
+{
+    "name": "vis-studio/telegram-driver",
+    "description": "Bots Studio SDK for SocialWeb",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Fiks\\VisStudio\\Drivers\\Telegram\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Danil Sidorenko",
+            "email": "danilsidorenko00@gmail.com"
+        }
+    ],
+    "require": {
+        "vlucas/phpdotenv": "^5.3",
+        "tightenco/collect": "^8.34"
+    }
+}
